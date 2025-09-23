@@ -21,8 +21,9 @@ Necesitas instalar:
 ### 📥 Instalación rápida
 
 **Debian / Ubuntu (y derivados):**
-<pre>```bash
-sudo apt update && sudo apt install -y git curl node-js-beautify moreutils``` </pre>
+```bash
+sudo apt update && sudo apt install -y git curl node-js-beautify moreutils
+```
 Fedora / RHEL (y derivados):
 
 bash
