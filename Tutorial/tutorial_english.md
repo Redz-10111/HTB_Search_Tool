@@ -45,7 +45,7 @@ npm install -g js-beautify.
 
 ---
 
-2) ⬇️ **Clone the repository**
+## 2) ⬇️ **Clone the repository**
 Download the official GitHub repository and enter the folder:
 
 Copy code
@@ -54,7 +54,7 @@ git clone https://github.com/Redz-10111/HTB_Search_Tool.git
 cd HTB_Search_Tool
 ```
 ---
-3) ✅ **Give execution permissions**
+## 3) ✅ **Give execution permissions**
 Make the scripts executable:
 
 Copy code
@@ -66,7 +66,7 @@ If you already granted permissions before, you can skip this step.
 
 ---
 
-4) 🔄 **Update the local database (download bundle.js)**
+## 4) 🔄 **Update the local database (download bundle.js)**
 Run the Spanish script with the -u option.
 This will download bundle.js and replace it only if the MD5 checksum changes (prevents overwriting if there are no updates).
 
@@ -78,7 +78,7 @@ Copy code
 
 ---
 
-5) 🚀 **Basic usage (quick queries)**
+## 5) 🚀 **Basic usage (quick queries)**
 Run the Spanish script:
 
 Copy code
