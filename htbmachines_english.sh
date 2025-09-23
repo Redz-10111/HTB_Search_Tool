@@ -50,18 +50,17 @@ function updateFiles(){
       md5_temp_value=$(md5sum bundle_temp.js | awk '{print $1}')
       md5_original_value=$(md5sum bundle.js | awk '{print $1}')
 
-    if [ "$md5_temp_value" == "$md5_original_value" ]; then
-      echo -e "\n${yellowColour}[+]${endColour}${grayColour} No updates detected, everything is up to date${endColour}"
-      rm bundle_temp.js
-    else
-      echo -e "\n${yellowColour}[+]${endColour}${grayColour} Updates have been found${endColour}"
-      sleep 1
+      if [ "$md5_temp_value" == "$md5_original_value" ]; then
+        echo -e "\n${yellowColour}[+]${endColour}${grayColour} No updates detected, everything is up to date${endColour}"
+        rm bundle_temp.js
+      else
+        echo -e "\n${yellowColour}[+]${endColour}${grayColour} Updates have been found${endColour}"
+        sleep 1
 
-      rm bundle.js && mv bundle_temp.js bundle.js
+        rm bundle.js && mv bundle_temp.js bundle.js
 
-      echo -e "\n${yellowColour}[+]${endColour}${grayColour} The files have been updated${endColour}"
-    fi
-
+        echo -e "\n${yellowColour}[+]${endColour}${grayColour} The files have been updated${endColour}"
+      fi
       tput cnorm
     fi
 }
@@ -106,7 +105,7 @@ function searchMachine(){
             *)
               echo -e "${redColour}${key}:${endColour} ${grayColour}${value}${endColour}" ;;
           esac
-        done
+          done
     else
       echo -e "\n${redColour}[!] The provided machine does not exist${endColour}\n"
     fi
