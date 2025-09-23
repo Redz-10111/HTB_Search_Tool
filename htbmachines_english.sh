@@ -143,7 +143,7 @@ function getMachinesDifficulty(){
   results_check="$(cat bundle.js | grep "dificultad: \"$difficulty\"" -B 5 | grep "name:" | awk 'NF{print $NF}' | tr -d '"' | tr -d ',' | column)"
 
     if [ "$results_check" ]; then
-      echo -e "\n${yellowColour}[+]${endColour}${grayColour} Displaying the machines that have a difficulty level${endColour}${greenColour} $difficulty${endColour}${grayColour}:${endColour}\n"
+      echo -e "\n${yellowColour}[+]${endColour}${grayColour} Displaying the machines that have a difficulty level ${endColour}${greenColour} $difficulty${endColour}${grayColour}:${endColour}\n"
       cat bundle.js | grep "dificultad: \"$difficulty\"" -B 5 | grep name | awk 'NF{print $NF}' | tr -d '"' | tr -d ',' | column
     else
       echo -e "\n${redColour}[!] The specified difficulty does not exist${endColour}\n"
@@ -156,7 +156,7 @@ function getOSMachines(){
   os_results="$(cat bundle.js | grep "so: \"$os\"" -B 5 | grep "name: " | awk 'NF{print $NF}' | tr -d '"' | tr -d ',' | column)"
 
     if [ "$os_results" ]; then
-      echo -e "\n${yellowColour}[+]${endColour}${grayColour} Showing the machines whose operating system is${endColour}${greenColour}$os${endColour}${grayColour}:${endColour}\n"
+      echo -e "\n${yellowColour}[+]${endColour}${grayColour} Showing the machines whose operating system is ${endColour}${greenColour}$os${endColour}${grayColour}:${endColour}\n"
       cat bundle.js | grep "so: \"$os\"" -B 5 | grep "name: " | awk 'NF{print $NF}' | tr -d '"' | tr -d ',' | column
     else
       echo -e "\n${redColour}[!] The specified operating system does not exist${endColour}\n"
