@@ -33,10 +33,6 @@ It works with a **local index (JSON)** that stores machine metadata, allowing st
 - ES [htbmachines_spanish.sh](./htbmachines_spanish.sh) → Original Version in Spanish  
 - EN [htbmachines_english.sh](./htbmachines_english.sh) → Adapted Version in English 
 
-## 📘 **Tutorials**
-- ES [Tutorial in Spanish](./Tutorial/tutorial_spanish.md)  
-- EN [Tutorial in English](./Tutorial/tutorial_english.md)  
-
 ---
 
 ### 1) Clone the repository
@@ -46,7 +42,7 @@ cd HTB_Search_Tool
 ```
 #### Inside the folder you will find two script versions:
 
-ES → htbmachines_spanish.sh (original Spanish version)
+ES → htbmachines_spanish.sh (original Spanish version) [Tutorial in Spanish](./Tutorial/tutorial_spanish.md) 
 
-EN → htbmachines_english.sh (adapted English version)
+EN → htbmachines_english.sh (adapted English version) [Tutorial in English](./Tutorial/tutorial_english.md) 
 
