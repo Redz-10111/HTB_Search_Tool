@@ -1,6 +1,6 @@
-# HTB-Search-Tool
+# **HTB-Search-Tool**
 
-# Bash Scripting for HackTheBox Console Based Machine Search.
+# **Bash Scripting for HackTheBox Console Based Machine Search.**
 
 Bash-based search tool inspired by S4vitar’s website, which already provides this service online. It integrates the official bundle.js locally, allowing filters by name, IP, OS, difficulty, certifications, and techniques. It also provides the direct URL to S4vitar’s write-up solving each machine.
 
@@ -10,7 +10,7 @@ Bash-based search tool inspired by S4vitar’s website, which already provides t
 
 
 
-## 📖 Description 
+## 📖 **Description** 
 This project is a **console-based search tool for HackTheBox machines**, developed in **Bash** and inspired by **S4vitar’s methodology**.
 The tool replicates the functionality of the [HTB Machines website](https://htbmachines.github.io/), bringing those powerful filters **directly into the terminal** for faster, distraction-free querying.
 
@@ -24,3 +24,15 @@ It works with a **local index (JSON)** that stores machine metadata, allowing st
 - 🎯 **Filter by certifications** (eJPT, OSCP, CEH, etc.)
 - 🛠️ **Filter by techniques** (SMB, SQLi, LFI, etc.)
 - ▶️**Direct link to the official YouTube channel** of **S4vitar**
+
+## 📂 Quick Access
+
+---
+
+### 🔧 **Scripts**
+- SP [htbmachines_spanish.sh](./htbmachines_spanish.sh) → Original Version in Spanish  
+- EN [htbmachines_english.sh](./htbmachines_english.sh) → Adapted Version in English 
+
+### 📘 **Tutorials**
+- SP [Tutorial in Spanish](./Tutorial/tutorial_spanish.md)  
+- EN [Tutorial in English](./Tutorial/tutorial_english.md)  
