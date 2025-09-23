@@ -4,7 +4,7 @@ Este tutorial te guía paso a paso para instalar los requisitos, **clonar el rep
 
 ---
 
-## 1) 🔧 Requisitos (instalar herramientas)
+## 1) 🔧 **Requisitos (instalar herramientas)**
 
 > ✅ Compatible con **Linux** y **WSL (Windows Subsystem for Linux)**.  
 > 🐚 Recomendado usar **Bash** como shell principal.
@@ -18,7 +18,7 @@ Necesitas instalar:
 
 ---
 
-## 📥 Instalación rápida
+## 📥 **Instalación rápida**
 
 ### **Debian / Ubuntu (y derivados):**
 Copiar código
@@ -43,7 +43,7 @@ sudo npm install -g js-beautify
 ℹ️ Nota: si no tienes npm, instálalo con tu gestor de paquetes antes de ejecutar
 npm install -g js-beautify.
 
-## 2) ⬇️ Clonar el repositorio
+## 2) ⬇️ **Clonar el repositorio**
 Descarga el repositorio oficial de GitHub y entra en la carpeta:
 
 Copiar código
@@ -52,7 +52,7 @@ git clone https://github.com/Redz-10111/HTB_Search_Tool.git
 cd HTB_Search_Tool
 ```
 
-## 3) ✅ Dar permisos de ejecución
+## 3) ✅ **Dar permisos de ejecución**
 Haz que los scripts sean ejecutables:
 
 Copiar código
@@ -62,7 +62,7 @@ chmod +x htbmachines_spanish.sh htbmachines_english.sh
 ⚠️ Solo necesitas hacerlo la primera vez que clonas el repositorio.
 Si ya diste permisos antes, puedes saltar este paso.
 
-## 4) 🔄 Actualizar la base local (descargar bundle.js)
+## 4) 🔄 **Actualizar la base local (descargar bundle.js)**
 Ejecuta el script en español con la opción -u.
 Esto descargará bundle.js y lo reemplazará solo si el MD5 cambia (evita sobreescribir si no hay cambios).
 
@@ -72,14 +72,14 @@ Copiar código
 ```
 📌 Este paso es obligatorio la primera vez para tener la base de datos en local.
 
-## 5) 🚀 Uso básico (consultas rápidas)
+## 5) 🚀 **Uso básico (consultas rápidas)**
 Lanza el script en español:
 
 Copiar código
 ```bash
 ./htbmachines_spanish.sh
 ```
-### 🔎 Filtros y opciones disponibles
+### 🔎 **Filtros y opciones disponibles**
 
 El script ofrece múltiples opciones de búsqueda y utilidades:
 
@@ -95,7 +95,7 @@ El script ofrece múltiples opciones de búsqueda y utilidades:
 
 ---
 
-### 🆘 Panel de ayuda
+### 6) **🆘 Panel de ayuda**
 
 El script incluye un **menú interactivo de ayuda** que muestra todas las opciones de uso.  
 Ejecuta:
@@ -119,7 +119,7 @@ Copiar código
     h) Mostrar este panel de ayuda
 ```
 
-## 6) 🧯 Solución de problemas
+## 7) 🧯 **Solución de problemas**
 ❌ permission denied → Ejecuta chmod +x ... para dar permisos.
 
 ❌ command not found: js-beautify → Instala node-js-beautify.
@@ -130,9 +130,5 @@ Copiar código
 
 ❌ Conflictos con GitHub al subir cambios → Ejecuta:
 
-bash
-Copiar código
-git pull --rebase origin main
-git push origin main
 
 
