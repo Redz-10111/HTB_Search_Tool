@@ -11,7 +11,7 @@ Este tutorial te guía paso a paso para instalar los requisitos, **clonar el rep
 
 Necesitas instalar:
 
-- 📂 **git** → para clonar el repositorio  
+- 📂 **git** → para clonar el repositorio 
 - 🌐 **curl** → para descargar el archivo `bundle.js`  
 - 🎨 **node-js-beautify** → para formatear el `bundle.js`  
 - 🛠️ **moreutils** → proporciona la utilidad `sponge`  
