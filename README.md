@@ -59,4 +59,22 @@ You are free to **use, copy, modify, and distribute** this tool, provided that p
 
 🔗 See the full license text here: [MIT LICENSE](./LICENSE)
 
+---
+
+## 🙏 **Credits**
+
+This project is based on the original work and methodology of **S4vitar**,  
+who developed the initial tool and shared it in his classes.  
+
+This repository was created to **integrate, adapt, and document the tool for the community**,  
+making it easier to access, understand, and use in both **Spanish (ES)** and **English (EN)** versions.  
+
+📘 **This repository only provides:**
+- Documentation in English and Spanish  
+- Structured tutorials  
+- Adaptations for easier usage  
+
+✍️ Documentation and tutorials by **Redz-10111**/**Manuel Domingo Acedo**.
+
+
 
