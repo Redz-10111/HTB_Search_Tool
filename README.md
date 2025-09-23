@@ -40,8 +40,11 @@ It works with a **local index (JSON)** that stores machine metadata, allowing st
 
 ### 1) **Clone the repository**
 ```bash
-git clone https://github.com/Redz-10111/HTB_Search_Tool.git
+git clone --no-checkout --depth 1 https://github.com/Redz-10111/HTB_Search_Tool.git
 cd HTB_Search_Tool
+git sparse-checkout init --cone
+git sparse-checkout set htbmachines_english.sh htbmachines_spanish.sh
+git checkout main
 ```
 #### **Inside the folder you will find two script versions:**
 
