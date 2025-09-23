@@ -134,8 +134,5 @@ bash
 Copiar código
 git pull --rebase origin main
 git push origin main
-## 7) 📎 Enlaces útiles
-📦 Repositorio: HTB_Search_Tool
 
-📺 Canal de S4vitar: disponible en los resultados del script
 
