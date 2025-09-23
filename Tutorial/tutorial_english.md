@@ -20,7 +20,7 @@ You need to install:
 
 ## 📥 Quick installation
 
-### **Debian / Ubuntu (and derivatives):**
+## **Debian / Ubuntu (and derivatives):**
 
 Copy code
 ```bash
