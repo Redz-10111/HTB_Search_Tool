@@ -49,3 +49,15 @@ ES → htbmachines_spanish.sh (original Spanish version) [Tutorial in Spanish](.
 
 EN → htbmachines_english.sh (adapted English version) [Tutorial in English](./Tutorial/tutorial_english.md) 
 
+---
+
+---
+
+## 📄 **License**
+
+This project is licensed under the **MIT License**.  
+You are free to **use, copy, modify, and distribute** this tool, provided that proper credit is given to the author.
+
+🔗 See the full license text here: [MIT License](./LICENSE)
+
+
