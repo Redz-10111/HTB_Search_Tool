@@ -21,37 +21,44 @@ Necesitas instalar:
 ### 📥 Instalación rápida
 
 **Debian / Ubuntu (y derivados):**
+Copiar código
 ```bash
 sudo apt update && sudo apt install -y git curl node-js-beautify moreutils
 ```
 Fedora / RHEL (y derivados):
 
-bash
+Copiar código
+```bash
 Copiar código
 sudo dnf install -y git curl moreutils
 sudo npm install -g js-beautify
+```
 Arch / Manjaro:
 
-bash
 Copiar código
+````bash
 sudo pacman -S --needed git curl moreutils
 sudo npm install -g js-beautify
+````
 ℹ️ Nota: si no tienes npm, instálalo con tu gestor de paquetes antes de ejecutar
 npm install -g js-beautify.
 
 2) ⬇️ Clonar el repositorio
 Descarga el repositorio oficial de GitHub y entra en la carpeta:
 
-bash
 Copiar código
+```bash
 git clone https://github.com/Redz-10111/HTB_Search_Tool.git
 cd HTB_Search_Tool
+```
+
 3) ✅ Dar permisos de ejecución
 Haz que los scripts sean ejecutables:
 
-bash
 Copiar código
+```bash
 chmod +x htbmachines_spanish.sh htbmachines_english.sh
+```
 ⚠️ Solo necesitas hacerlo la primera vez que clonas el repositorio.
 Si ya diste permisos antes, puedes saltar este paso.
 
@@ -59,55 +66,59 @@ Si ya diste permisos antes, puedes saltar este paso.
 Ejecuta el script en español con la opción -u.
 Esto descargará bundle.js y lo reemplazará solo si el MD5 cambia (evita sobreescribir si no hay cambios).
 
-bash
 Copiar código
+```bash
 ./htbmachines_spanish.sh -u
-📌 Este paso es obligatorio la primera vez para tener la base de datos local.
+```
+📌 Este paso es obligatorio la primera vez para tener la base de datos en local.
 
 5) 🚀 Uso básico (consultas rápidas)
 Lanza el script en español:
 
-bash
 Copiar código
+```bash
 ./htbmachines_spanish.sh
-🔎 Filtros disponibles
-Buscar por nombre
+```
+### 🔎 Filtros y opciones disponibles
 
-Buscar por dirección IP
+El script ofrece múltiples opciones de búsqueda y utilidades:
 
-Filtrar por sistema operativo (Linux / Windows)
+- 🟡 **`-u`** → Descargar o actualizar archivos necesarios (`bundle.js`)  
+- 🟣 **`-m`** → Buscar por **nombre de máquina**  
+- 🟣 **`-i`** → Buscar por **dirección IP**  
+- 🟣 **`-d`** → Filtrar por **dificultad** (Fácil, Media, Difícil, Insane)  
+- 🟣 **`-o`** → Filtrar por **sistema operativo** (Linux / Windows)  
+- 🟣 **`-s`** → Filtrar por **skills** (ej. SMB, SQLi, LFI, etc.)  
+- 🟣 **`-c`** → Filtrar por **certificaciones** (eJPT, OSCP, CEH, etc.)  
+- 🟣 **`-y`** → Obtener link directo a la **resolución de la máquina en YouTube**  
+- 🟣 **`-h`** → Mostrar el **panel de ayuda**, que resume todas las opciones disponibles  
 
-Filtrar por dificultad (Fácil / Media / Difícil / Insane)
+---
 
-Filtrar por certificaciones (eJPT, OSCP, CEH, etc.)
+### 🆘 Panel de ayuda
 
-Filtrar por técnicas (SMB, SQLi, LFI, etc.)
+El script incluye un **menú interactivo de ayuda** que muestra todas las opciones de uso.  
+Ejecuta:
 
-Acceder a enlaces de write-ups de S4vitar en YouTube
+```bash
+./htbmachines_spanish.sh -h
+```
+👉 Esto mostrará algo como:
 
-🧩 Ejemplos de comandos
-bash
 Copiar código
-# Buscar máquina por nombre
-./htbmachines_spanish.sh -n "Legacy"
+```bash
+[+] Uso:
+    u) Descargar o actualizar archivos necesarios
+    m) Buscar por un nombre de máquina
+    i) Buscar por dirección IP
+    d) Buscar por la dificultad de una máquina
+    o) Buscar por el sistema operativo
+    s) Buscar por Skills
+    c) Filtrar por certificaciones
+    y) Obtener link de la resolución de la máquina en YouTube
+    h) Mostrar este panel de ayuda
+```
 
-# Buscar por IP
-./htbmachines_spanish.sh -i "10.10.10.4"
-
-# Filtrar por sistema operativo
-./htbmachines_spanish.sh -o "Linux"
-
-# Filtrar por dificultad
-./htbmachines_spanish.sh -d "Fácil"
-
-# Filtrar por certificación
-./htbmachines_spanish.sh -c "OSCP"
-
-# Filtrar por técnica
-./htbmachines_spanish.sh -t "SMB"
-
-# Actualizar base de datos (bundle.js)
-./htbmachines_spanish.sh -u
 6) 🧯 Solución de problemas
 ❌ permission denied → Ejecuta chmod +x ... para dar permisos.
 
@@ -128,7 +139,3 @@ git push origin main
 
 📺 Canal de S4vitar: disponible en los resultados del script
 
-8) 📄 Notas finales
-El script fue creado originalmente en Español y luego adaptado al Inglés.
-
-Toda la documentación del repositorio está en inglés para mayor accesibilidad, pero aquí tienes la guía completa en español.
