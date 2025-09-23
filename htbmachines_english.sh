@@ -22,7 +22,7 @@ function ctrl_c() {
   main_url="https://htbmachines.github.io/bundle.js"
 
 function helpPanel(){
-  echo -e "\n${yellowColour}[+]${endColour}${grayColour}Usage:${endColour}"
+  echo -e "\n${yellowColour}[+]${endColour}${grayColour} Usage:${endColour}"
   echo -e "\t${purpleColour}u)${endColour}${grayColour} Download or update required files${endColour}"
   echo -e "\t${purpleColour}m)${endColour}${grayColour} Search by a machine name${endColour}"
   echo -e "\t${purpleColour}i)${endColour}${grayColour} Search by IP address${endColour}"
