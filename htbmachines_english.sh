@@ -171,7 +171,7 @@ function getOSDifficultyMachines(){
     check_results="$(cat bundle.js | grep "so: \"$os\"" -C 4 | grep "dificultad: \"$difficulty\"" -B 5 | grep "name: " | awk 'NF{print $NF}' | tr -d '"' | tr -d ',' | column)"
 
     if [ "$check_results" ]; then
-      echo -e "\n${yellowColour}[+]${endColour}${grayColour} Listing machines of difficulty${endColour}${greenColour} $difficulty${endColour}${grayColour} que tengan sistema operativo${endColour}${purpleColour} $os${endColour}${yellowColour}:${endColour}\n"
+      echo -e "\n${yellowColour}[+]${endColour}${grayColour} Listing machines of difficulty${endColour}${greenColour} $difficulty${endColour}${grayColour} que tengan sistema operativo${endColour}${greenColour} $os${endColour}${yellowColour}:${endColour}\n"
       cat bundle.js | grep "so: \"$os\"" -C 4 | grep "dificultad: \"$difficulty\"" -B 5 | grep "name: " | awk 'NF{print $NF}' | tr -d '"' | tr -d ',' | column
     else
       echo -e "\n${redColour}[!] An incorrect difficulty or operating system has been specified${endColour}\n"
