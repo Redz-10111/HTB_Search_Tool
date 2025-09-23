@@ -20,7 +20,7 @@ Necesitas instalar:
 
 ## 📥 **Instalación rápida**
 
-### **Debian / Ubuntu (y derivados):**
+### **Debian / Ubuntu (derivados):**
 Copiar código
 ```bash
 sudo apt update && sudo apt install -y git curl node-js-beautify moreutils
