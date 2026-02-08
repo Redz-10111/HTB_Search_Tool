@@ -57,7 +57,7 @@ EN → htbmachines_english.sh (adapted English version) [Tutorial in English](./
 
 ## 📄 **License**
 
-This dproject is licensed under the MIT License.
+This project is licensed under the MIT License.
 You are free to use, copy, modify, and distribute this tool, provided that the original copyright notice and license text are included in all copies or substantial portions of the Software.
 
 🔗 See the full license text here: [MIT LICENSE](./LICENSE)
