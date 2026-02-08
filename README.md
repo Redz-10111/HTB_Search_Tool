@@ -57,8 +57,8 @@ EN → htbmachines_english.sh (adapted English version) [Tutorial in English](./
 
 ## 📄 **License**
 
-This project is licensed under the **MIT License**.  
-You are free to **use, copy, modify, and distribute** this tool, provided that proper credit is given to the author.
+This dproject is licensed under the MIT License.
+You are free to use, copy, modify, and distribute this tool, provided that the original copyright notice and license text are included in all copies or substantial portions of the Software.
 
 🔗 See the full license text here: [MIT LICENSE](./LICENSE)
 
@@ -68,6 +68,8 @@ You are free to **use, copy, modify, and distribute** this tool, provided that p
 
 This project is based on the original work and methodology of **S4vitar**,  
 who developed the initial tool and shared it in his classes.  
+
+All source code in this repository has been independently written by Manuel Domingo Acedo Vélez.
 
 This repository was created to **integrate, adapt, and document the tool for the community**,  
 making it easier to access, understand, and use in both **Spanish (ES)** and **English (EN)** versions.  
