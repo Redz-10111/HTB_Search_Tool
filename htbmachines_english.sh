@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# HTB_Search_Tool
+# Author: Manuel Domingo Acedo Vélez (Redz-10111)
+# Year: 2025
+# License: MIT
+# Personal implementation based on a practice created by S4vitar
+
 #Colours
 greenColour="\e[0;32m\033[1m"
 endColour="\033[0m\e[0m"
